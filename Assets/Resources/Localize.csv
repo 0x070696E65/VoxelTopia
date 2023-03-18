@@ -1,0 +1,7 @@
+KEY,JAPANESE,ENGLISH
+AUTH1,テストネットを使用します。お間違えないようお願いします,Test nets will be used. Please make no mistake.
+AUTH2,秘密鍵はパスワードで暗号化されて端末に保存されますが、念の為高額を保有するアカウントは使用しないでください。,The private key is encrypted with a password and stored on the terminal\c but do not use an account that holds a high amount of money\c just in case.
+EDITOR1,公開する場合は手数料として10XYMが必要です,A fee of 10XYM is required to publish.
+EDITOR2,メタデータの保存先を別のアカウントにする場合はこちらに秘密鍵を記入してください。Sourceアカウントと同じ場合は空欄にしてください,If you wish to store metadata in a different account\c please enter the private key here. If it is the same as the Source account\c leave blank.
+EDITOR3,ガラスのような透明ブロックの場合はチェックしてください,Check if transparent block like glass.
+QUIT,本当に終了しますか？,Are you sure you want to finish?
