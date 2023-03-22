@@ -10,5 +10,5 @@ https://note.com/toshi31/n/nacd593e8300a
 - for windows<br>
 https://symvolution.com/download/VoxelTopiaWindows.zip
 
-- for mac os<br> 
-https://symvolution.com/download/VoxelTopiaMacOs.zip
+- for mac os<br>
+https://symvolution.com/download/VoxelTopiaMac.zip

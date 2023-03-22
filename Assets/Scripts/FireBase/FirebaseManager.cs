@@ -46,6 +46,16 @@ public class FirebaseManager: MonoBehaviour
     
     private async void Start()
     {
+        var alice = "378EAA8DFB4AE0170FDB0D22D1FF4389C2842E588074094F55A35C54F2BF52B7";
+        var alicePkey = new PrivateKey(alice);
+        var keyPair = new KeyPair(alicePkey);
+        var address = SymbolConst.Facade.Network.PublicKeyToAddress(keyPair.PublicKey.bytes);
+        Debug.Log(address.bytes[0]);
+        Debug.Log(address.bytes[1]);
+        var aaa = Base32.Encode(new byte[] {152});
+        //var strAddress = Converter.AddressToString(new byte[]{152, 117});
+        Debug.Log(aaa);
+        
         loadingPanel.SetActive(true);
         signeUp.onClick.AddListener(SignUpAsync);
         signeIn.onClick.AddListener(SignInAsync);
